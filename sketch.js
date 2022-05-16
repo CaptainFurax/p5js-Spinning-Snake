@@ -1,3 +1,4 @@
+p5.disableFriendlyErrors = true;
 function setup(){
   pixelDensity(1);
   angleMode(DEGREES);
