@@ -1,4 +1,5 @@
 function setup(){
+  pixelDensity(1);
   angleMode(DEGREES);
   frameRate(14);
   cv = createCanvas(560, 560, WEBGL).parent("mc");
