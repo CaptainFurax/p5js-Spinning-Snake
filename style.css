@@ -1,0 +1,20 @@
+@font-face { font-family: 'p2p'; src: url('rsc/PressStart2P.ttf'); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #28B463;
+  font: 0.9em 'p2p';
+}
+
+canvas {
+  display: block;
+}
+
+div{ margin:2px 0 2px 0 }
