@@ -22,6 +22,7 @@ An humble, own private variation of Snake...proudly made on a cloudy sunday with
     + and Finally, adding a vector [ the direction ]
     + Exception : no need to copy prev. head coords when body size = 1 !
   + Moving function :
+  ```javascript
   rollUpd() {
     // slide tail to head !
     this.body.push( this.body.shift() )
@@ -30,4 +31,5 @@ An humble, own private variation of Snake...proudly made on a cloudy sunday with
     // adding the direction to the head
     this.getHead().add( vDir )
   }
+  ```
 + [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
