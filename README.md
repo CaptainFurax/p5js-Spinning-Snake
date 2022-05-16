@@ -1,6 +1,8 @@
 # p5js-Spinning-Snake
 An humble, own private variation of Snake...proudly made on a cloudy sunday with p5.js:)
 
+![spinning-snake](https://github.com/CaptainFurax/p5js-Spinning-Snake/blob/main/Spinning-Snake.gif)
+
 + Game : 
   + Each time you'll eat a food brick, the snake will grow
   + Don't touch the borders or your body -> Game Over 
@@ -22,12 +24,10 @@ An humble, own private variation of Snake...proudly made on a cloudy sunday with
   + Moving function :
   rollUpd() {
     // slide tail to head !
-    this.body.push( this.body.shift() );
+    this.body.push( this.body.shift() )
     // copying prev. head coords to new one
-    if ( this.body.length > 1 ) this.body[ this.body.length-1 ] = this.body[ this.body.length-2 ].copy();
+    if ( this.body.length > 1 ) this.body[ this.body.length-1 ] = this.body[ this.body.length-2 ].copy()
     // adding the direction to the head
-    this.getHead().add( vDir );
+    this.getHead().add( vDir )
   }
 + [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
-
-![spinning-snake](https://github.com/CaptainFurax/p5js-Spinning-Snake/blob/main/Spinning-Snake.gif)
