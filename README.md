@@ -3,6 +3,7 @@
 ![spinning-snake](https://github.com/CaptainFurax/p5js-Spinning-Snake/blob/main/Spinning-Snake.gif)
 
 + An humble, own private variation of Snake...proudly made on a cloudy sunday with p5.js:)
++ [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
 + Game : 
   + Each time you'll eat a food brick, the snake will grow
   + Don't touch the borders or your body -> Game Over 
@@ -11,7 +12,6 @@
     + on the right when eating a brick arriving by downside or right side
     + control with arrow keys
     + when rotating, arrows direction are kept on the good way [ Player's screen directions ]
-  + [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
 + Specs :
   + Javascript + p5.js library
   + 3D Canvas to rotate the playground : a 3D plane rotated on Z-Axis.
