@@ -25,7 +25,7 @@
   + Moving function :
   ```javascript
   rollUpd() {
-    // slide tail to head !
+    // remove tail element and place it to head with a single line of code !
     this.body.push( this.body.shift() )
     // copying prev. head coords to new one
     if ( this.body.length > 1 ) this.body[ this.body.length-1 ] = this.body[ this.body.length-2 ].copy()
