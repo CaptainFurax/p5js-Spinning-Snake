@@ -11,6 +11,7 @@ An humble, own private variation of Snake...proudly made on a cloudy sunday with
     + on the right when eating a brick arriving by downside or right side
     + control with arrow keys
     + when rotating, arrows direction are kept on the good way [ Player's screen directions ]
+  + [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
 + Specs :
   + Javascript + p5.js library
   + 3D Canvas to rotate the playground : a 3D plane rotated on Z-Axis.
@@ -32,4 +33,3 @@ An humble, own private variation of Snake...proudly made on a cloudy sunday with
     this.getHead().add( vDir )
   }
   ```
-+ [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
