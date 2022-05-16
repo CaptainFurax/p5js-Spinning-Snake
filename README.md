@@ -1,8 +1,8 @@
 # p5js-Spinning-Snake
-An humble, own private variation of Snake...proudly made on a cloudy sunday with p5.js:)
 
 ![spinning-snake](https://github.com/CaptainFurax/p5js-Spinning-Snake/blob/main/Spinning-Snake.gif)
 
++ An humble, own private variation of Snake...proudly made on a cloudy sunday with p5.js:)
 + Game : 
   + Each time you'll eat a food brick, the snake will grow
   + Don't touch the borders or your body -> Game Over 
