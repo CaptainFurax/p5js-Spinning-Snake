@@ -4,13 +4,13 @@
 
 + An humble, own private variation of Snake...proudly made on a cloudy sunday with p5.js:)
 + [.oO° Enjoy Da Demo °Oo.](https://captainfurax.github.io/p5js-Spinning-Snake/)
-+ Game : 
++ Game :
+  + Control with arrow keys / Space to restart the game  
   + Each time you'll eat a food brick, the snake will grow
   + Don't touch the borders or your body -> Game Over 
   + When a brick is eaten : the playground/field will turn 90° :
     + on the left when eating a brick arriving by upside or left side
     + on the right when eating a brick arriving by downside or right side
-    + control with arrow keys
     + when rotating, arrows direction are kept on the good way [ Player's screen directions ]
 + Specs :
   + Javascript + p5.js library
